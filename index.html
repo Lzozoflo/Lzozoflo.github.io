@@ -1,5 +1,97 @@
-<h1>Mon Hub de Jeux Godot</h1>
-<ul>
-    <li><a href="./ticket_scratch/ticket_scratch.html">Jouer au Jeu Ticket Scratch</a></li>
-    <li><a href="./swipe_arrow/">Jouer au Jeu Swipe Arrow</a></li>
-</ul>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Hub de Jeux Godot</title>
+    <style>
+        /* Reset de base et police */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121214;
+            color: #e1e1e6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Conteneur principal */
+        .hub-container {
+            width: 100%;
+            max-width: 600px;
+            background: #1a1a1e;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border: 1px solid #29292e;
+            text-align: center;
+        }
+
+        /* Titre principal */
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 30px;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            background: linear-gradient(45deg, #4785ff, #845ef7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Liste de liens */
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        /* Style des boutons/liens */
+        li a {
+            display: block;
+            padding: 18px 24px;
+            background-color: #202024;
+            color: #e1e1e6;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            border: 1px solid #29292e;
+            transition: all 0.2s ease-in-out;
+        }
+
+        /* Effet au survol (Hover) */
+        li a:hover {
+            background-color: #4785ff;
+            color: #ffffff;
+            border-color: #709eff;
+            transform: translateY(-2px);
+            box-shadow: 0 0 20px rgba(71, 133, 255, 0.4);
+        }
+
+        /* Effet au clic (Active) */
+        li a:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hub-container">
+        <h1>Mon Hub de Jeux Godot</h1>
+        <ul>
+            <li><a href="./ticket_scratch/ticket_scratch.html">🕹️ Jouer au Jeu Ticket Scratch</a></li>
+            <li><a href="./swipe_arrow/">🎯 Jouer au Jeu Swipe Arrow</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
